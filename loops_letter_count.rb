@@ -13,4 +13,13 @@
 # 5
 # "apple is 5 letters long!"
 
+counter = 0 
 p "Enter a word:"
+input = gets.chomp.downcase
+
+while counter < input.length
+counter += 1
+p counter
+end
+
+p "#{input} is #{counter} letters long!"

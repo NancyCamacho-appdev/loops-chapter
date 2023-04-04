@@ -19,3 +19,9 @@
 
 p "Enter a number:"
 
+input = gets.chomp.to_i
+
+
+(1..10).each do |i|
+  puts input*i
+end
